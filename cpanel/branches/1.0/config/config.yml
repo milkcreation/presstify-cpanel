@@ -1,0 +1,15 @@
+# Activation des sets
+set:
+  DnsChecker:       true
+  
+  DynamicDocs:      true
+  
+  Ping:             true
+  
+  Redirect301:      true
+  
+  Server:           true
+  
+  Wallet:           true
+  
+  Website:          true
