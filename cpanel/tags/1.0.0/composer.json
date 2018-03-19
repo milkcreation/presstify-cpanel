@@ -1,9 +1,10 @@
 {
   "name": "presstify-plugins/cpanel",
-  "description": "PresstiFy Plugin Cpanel",
+  "description": "Extension PresstiFy de gestion de parc informatique",
   "type": "presstify-plugins",
   "keywords": ["presstify", "plugins", "wordpress", "cpanel"],
-  "homepage": "http://svn.milkcreation.fr/presstify-plugins/cpanel",
+  "homepage": "https://svn.tigreblanc.fr/presstify-plugins/cpanel",
+  "time": "2018-03-19",
   "license": "proprietary",
   "authors": [
     {
@@ -12,10 +13,8 @@
       "role": "Developper"
     }
   ],
-  "config" : {
-    "preferred-install": "dist",
-    "sort-packages": true,
-    "optimize-autoloader": true
+  "require": {
+    "presstify/framework": "^1.4"
   },
   "autoload": {
     "psr-4": {
@@ -23,5 +22,10 @@
     }
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "config" : {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
 }
