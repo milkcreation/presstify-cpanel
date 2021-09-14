@@ -3,9 +3,8 @@
   "description": "Extension PresstiFy de gestion de parc informatique",
   "type": "presstify-plugins",
   "keywords": ["presstify", "plugins", "wordpress", "cpanel"],
-  "homepage": "https://svn.tigreblanc.fr/presstify-plugins/cpanel",
-  "time": "2018-03-19",
-  "license": "proprietary",
+  "homepage": "https://github.com/milkcreation/presstify-cpanel.git",
+  "time": "2021-09-14",
   "authors": [
     {
       "name": "Jordy Manner",
